@@ -23,7 +23,7 @@ function parse_vars(req){
 	};
 }
 module.exports.batman ={
-	identidad: 'Bruce Wayne'
+	identidad: 'Bruce Wayne',
 	poder: 'Dinero'
 };
 
