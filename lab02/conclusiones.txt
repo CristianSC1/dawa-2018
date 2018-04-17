@@ -1,0 +1,23 @@
+
+Conclusiones:
+
+-. Para realizar el enrutador hice uso de la url para saber a donde quiere acceder el usuario, para ello se la variable pathname, esta variable preguntará si la url es ‘/’ lo que significa que el visitante está en la página principal, en este caso forzaremos a que path_nombre sea ‘/form.html’, que es el archivo principal de lo contrario guardará el pathname así como lo encuentra.
+
+-. Incluimos el módulo http, el cual nos permitirá procesar y responder mensajes de un servidor web y a su vez esa variable http es un objeto que tiene un evento .createServer() que recibirá como parámetro una función que se disparará cada vez que haya una petición nueva en nuestro sitio.
+
+-. Importamos los modulos, primero el archivo y despues con el nombre q se envio y de esta forma hacer uso de la funcion decretada en ella.
+
+-. Para hacer la tarea use formularios y los envie como metodo post, donde analice el tipo de entrada, luego mediante un modulo devolvi una respuesta.
+
+
+
+
+
+
+
+
+
+
+
+-. Los modulos nos permiten optimizar el código ya que reutilizamos funciones que se deben utilizar mas de una vez, de esta manera nos ahorran tiempo.
+
