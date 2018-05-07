@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-//import logo from './logo.svg';
 import Contador from './components/Contador/Contador'
+import Calculadora from './components/Calculadora/Calculadora'
 import './App.css';
 
 class App extends Component {
@@ -9,6 +9,9 @@ class App extends Component {
       <Contador valor={6} />
       <hr />
       <Contador valor={0} />
+      <hr />
+      <Calculadora />
+      
     </div>
   
     );
