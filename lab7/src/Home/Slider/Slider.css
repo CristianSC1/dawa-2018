@@ -1,0 +1,49 @@
+.slider {
+	margin-left:5%;
+	margin-right: 5%;
+	
+	width: 90%;
+	margin-top: 12%;
+	overflow: hidden;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9e/Cianes.png");
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+    float: right;
+    width: 50%;
+    height: 400px;
+}
+
+h1 {
+    float: left;
+}
+p {
+    float: left;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}

@@ -1,0 +1,63 @@
+
+/*
+3.2 Portfolio
+***************************************/
+.single-project {
+  margin-left: 7%;
+  border-style:   solid;
+  border-color:red;
+  width: 24%;
+  float: left;
+  margin-bottom:30px;
+  background:#D1F2EB;
+}
+.single-project img {
+  width:100%;
+}
+.project-description {
+  padding-right:20px;
+}
+.project-description p {
+  padding-left:0;
+}
+.project-title {
+  margin-top:15px;
+  margin-bottom:15px;
+  border-bottom:1px solid red;
+}
+.project-title h3 {
+  float:left;
+  margin-top:0;
+  padding:0;
+  width:80%;
+}
+.project-title .close {
+  color: red;
+  margin-top:10px;
+}
+.project-info span, .project-title h3 {
+  float: left;
+  color:red;
+}
+.project-info {
+  font-weight:100;
+  padding:10px 0;
+}
+.project-info span {
+  float: left;
+  width: 80px;
+  display: inline-block;
+}
+.project-info div {
+  margin-bottom:5px;
+}
+.close {
+  float: right;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+#portfolio-grid .mix {
+  opacity: 0;
+  display: none;
+}
