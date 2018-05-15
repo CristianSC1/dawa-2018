@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, NavLink, Swith } from 'react-router-dom';
+import { BrowserRouter, Route, NavLink, Switch } from 'react-router-dom';
 
 import classes from './App.css';
 import Posts from './containers/Posts/Posts';
@@ -36,12 +36,12 @@ class App extends Component {
            </nav>
          </header>
          <h1>blog de ejemplo</h1>
-         <Swith>
+         <Switch>
            <Route path="/new-post" component={NewPost} />
            <Route path="/posts" component={Posts} />
            <Route path="/" exact render={() => <h1>Pagina de inicio</h1>} />
            <Route render={() => <h1>Not found</h1>} />
-         </Swith>
+         </Switch>
          
     </div></BrowserRouter>);
   }
