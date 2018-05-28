@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 
-import './Slider.css'
+import classes from './Slider.css'
 export default class Slider extends Component{
 
     render(){
         return (
-            <div class="slider" >
+            <div class={classes.Slider} >
            
             <ul>
                 <li>1<img src="http://totalcallmobile.com/wp-content/uploads/2017/10/Gaming-Laptop.png" alt="" /></li>

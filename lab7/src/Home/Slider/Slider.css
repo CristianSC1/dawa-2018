@@ -1,4 +1,4 @@
-.slider {
+.Slider {
 	margin-left:5%;
 	margin-right: 5%;
 	
@@ -8,7 +8,7 @@
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/9/9e/Cianes.png");
 }
 
-.slider ul {
+.Slider ul {
 	display: flex;
 	padding: 0;
 	width: 400%;
@@ -16,12 +16,12 @@
 	animation: cambio 20s infinite alternate linear;
 }
 
-.slider li {
+.Slider li {
 	width: 100%;
 	list-style: none;
 }
 
-.slider img {
+.Slider img {
     float: right;
     width: 50%;
     height: 400px;

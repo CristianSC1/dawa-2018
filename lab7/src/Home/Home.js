@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './Home.css';
+import classes from './Home.css';
 
 export default class Home extends Component{
 
     render(){
-        return (<div className="section secondary-section " id="portfolio">
+        return (<div className={classes.Home} >
              <div class="triangle"></div>
             <div class="container">
          

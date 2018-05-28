@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
+
 import Slider from './Home/Slider/Slider'
 import Home from './Home/Home'
 import 'bootstrap/dist/css/bootstrap.css';
-import Menu from './Home/Menu/Menu'
-import Footer from './Home/Footer/Footer'
+import Menu from './Home/Menu/Menu';
+import Footer from './Home/Footer/Footer';
 
-import './App.css';
+import classes from './App.css';
 
 class App extends Component {
   render() {
     return (
 
-      <div className="App">
+      <div className={classes.App}>
      
       <Menu />
       <br />
