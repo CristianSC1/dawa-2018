@@ -1,5 +1,10 @@
 .Navbar {
-	background-color: #F16767;
+    background-color: #F16767;
+  
+    left: right;
+    margin-top: 0px;
+    width: 100%;
+
 }
 
 .NavbarList {
@@ -28,5 +33,5 @@
 }
 
 .NavbarItem a.active {
-    background-color: #4CAF50;
+    background-color: #FF5733;
 }

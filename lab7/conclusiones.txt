@@ -1,0 +1,6 @@
+Conclusiones
+1. React es una biblioteca Javascript de codigo abierto para crear interfaces de usuario con el objetivo de animar al desarrollador de aplicaciones en una sola página.
+2. React mantien un virtual DOM propio, en lugar de solamente confiar en DOM del navegador. Esto deja a la biblioteca determinar qué partes del DOM han cambiado comparando contendos entrre la versión nueva y la alamacenada en el virtual DOM.
+3.React.js está construido en torno a hacer funciones, que toman las actualizaciones de estado de la página y que se traduzcan en una representación virtual de la página resultante. 
+4. hace que sea fácil crear UI interactivas. Diseñe vistas simples para cada estado en su aplicación, y React actualizará y representará de manera eficiente solo los componentes correctos cuando los datos cambien.
+5. React también puede mostrarse en el servidor utilizando Node y aplicaciones móviles de potencia usando React Native .
